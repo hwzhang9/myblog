@@ -1,2 +1,2 @@
 # myblog
-[预览](https://github.com/hwzhang9/myblog)
+[预览](https://hwzhang9.github.io/myblog/)
