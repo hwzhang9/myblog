@@ -11,7 +11,7 @@
 [test](#test)
 
 
-![avatar](./1.jpeg)
+![avatar](./1.jpg)
 
 推荐生成 HTML 格式的文档浏览。
 
