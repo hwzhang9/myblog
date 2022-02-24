@@ -1,56 +1,41 @@
-# myblog
+# 第一个 Case
 
-this is my blog
+# 产品手册指南
 
-[blog](#header)
+[如何更新本手册？](#如何更新本手册？)
 
-Lorem markdownum, flumen huic caelo emittere tu aevi onerataque. Terque
-vocabitur fornacibus duros succedere exul habitatis finibus noctisque peteret.
+[如何生成HTML版本的手册？](#如何生成HTML版本的手册？)
 
-> Communemque cortice es omne, necem viribus levis? Specie sed datis spirandi
-> minus verum deducere spectans cernunt fiuntque de quoque muneris visibus,
-> *tacuit digni*. Attulerat pompa, quod costis, et infelix ut reliquit reliquit
-> cuius quamvis et forsitan.
+[如何生成PDF版本的手册？](#如何生成PDF版本的手册？)
 
-Facies [tuo boves aequora](http://www.hunc-armata.net/dulichiusmole.html)
-resumere gravibus; cum vulnere felix perdidimus arvis munera penna nec vaccae
-visa carmina. Busta suam nata. Amathunta obnoxia Sol frondes. Hic tum pectora
-datum saevis: Cerealia salutem gemitum Cephalus, unus nostroque metu: [dominam
-Hylonome](http://temporis.io/suique). Pugnantemque cursus, robora sororis omnia.
-
-## header
-
-Statione curvata motus centauri, inque sedula, Ismenides fratris Laurenti hosti
-es Argolicas! Centum proles **ensem infelix** molles pecudis ad iuvenum, Libye
-non quoque mare?
-
-1. Litora imae tibi Troiae recens
-2. Cubile peto qui
-3. Onus mihi
+[test](#test)
 
 
-[手册](#手册)
+![avatar](./1.jpeg)
 
-Lorem markdownum, flumen huic caelo emittere tu aevi onerataque. Terque
-vocabitur fornacibus duros succedere exul habitatis finibus noctisque peteret.
+推荐生成 HTML 格式的文档浏览。
 
-> Communemque cortice es omne, necem viribus levis? Specie sed datis spirandi
-> minus verum deducere spectans cernunt fiuntque de quoque muneris visibus,
-> *tacuit digni*. Attulerat pompa, quod costis, et infelix ut reliquit reliquit
-> cuius quamvis et forsitan.
+## 如何更新本手册？
 
-Facies [tuo boves aequora](http://www.hunc-armata.net/dulichiusmole.html)
-resumere gravibus; cum vulnere felix perdidimus arvis munera penna nec vaccae
-visa carmina. Busta suam nata. Amathunta obnoxia Sol frondes. Hic tum pectora
-datum saevis: Cerealia salutem gemitum Cephalus, unus nostroque metu: [dominam
-Hylonome](http://temporis.io/suique). Pugnantemque cursus, robora sororis omnia.
+1. 修改要更新的章节对应的 md 文件
+2. 执行根目录下的 bash 文件：`./merge-man.sh`，将最新的各章节内容合并到`mnos-user-manual.md`中
+3. 将各个 md 文件修改更新到 git 仓库
 
-## 手册
+## 如何生成HTML版本的手册？
 
-Statione curvata motus centauri, inque sedula, Ismenides fratris Laurenti hosti
-es Argolicas! Centum proles **ensem infelix** molles pecudis ad iuvenum, Libye
-non quoque mare?
+1. 修改要更新的章节对应的 md 文件
+2. 执行根目录下的 bash 文件：`./merge-man.sh`，将最新的各章节内容合并到`mnos-user-manual.md`中
+3. 将各个 md 文件修改更新到 git 仓库
 
-1. Litora imae tibi Troiae recens
-2. Cubile peto qui
-3. Onus mihi
+
+## 如何生成PDF版本的手册？
+
+1. 修改要更新的章节对应的 md 文件
+2. 执行根目录下的 bash 文件：`./merge-man.sh`，将最新的各章节内容合并到`mnos-user-manual.md`中
+3. 将各个 md 文件修改更新到 git 仓库
+
+## test
+
+1. 修改要更新的章节对应的 md 文件
+2. 执行根目录下的 bash 文件：`./merge-man.sh`，将最新的各章节内容合并到`mnos-user-manual.md`中
+3. 将各个 md 文件修改更新到 git 仓库
