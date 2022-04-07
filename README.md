@@ -8,6 +8,8 @@
 
 [如何生成PDF版本的手册](#如何生成PDF版本的手册)
 
+[index](./index.html)
+
 [test](#test)
 
 
